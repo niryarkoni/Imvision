@@ -6,7 +6,14 @@ public class MainTest {
     static int totalTests = 0;
 
     public static void main(String[] args) throws Exception {
-
+        //        Expression e = new Pow(0, 0);
+//        System.out.println(e.simplify());
+//        int p1 = ExpressionTestPart1.main1();
+//        int p2 = ExpressionTestPart2.main2();
+//        int p3 = ExpressionTestPart3.main3();
+//        System.out.println("Final grade :" + p1);
+//        System.out.println("Final grade :" + p2);
+//        System.out.println("Final grade :" + p3);
         Expression e1 = null;
         double value;
         String s;
