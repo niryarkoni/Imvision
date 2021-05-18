@@ -11,15 +11,15 @@ public class Executor {
     }
     public List<Double> excute(){
         //create pool
-        ExecutorService service = Executors.newCachedThreadPool();
+        int coreCount = Runtime.getRuntime().availableProcessors();
+        ExecutorService service = Executors.newFixedThreadPool(coreCount);
+        //ExecutorService service = Executors.newCachedThreadPool();
         //submit the tasks for execution
-        //List<Double> futuresValues = new ArrayList<>();
         List<Future> futuresList = new ArrayList<>();
         List<Double> result = new ArrayList<>();
         for (int i= 0;i<N;i++){
             Future<Double> future = service.submit(new Task(expression,i));
             futuresList.add(future);
-            //futuresValues.add(future.get(1, TimeUnit.SECONDS));
         }
 
         for(Future<Double> f : futuresList){

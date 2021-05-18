@@ -2,7 +2,7 @@ import java.util.Map;
 
 public class Div extends BinaryExpression implements Expression {
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param expressionA the expression a
      * @param expressionB the expression b
@@ -12,7 +12,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param stringA     the string a
      * @param expressionB the expression b
@@ -22,7 +22,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     *  new Div.
      *
      * @param expressionA the expression a
      * @param stringB     the string b
@@ -32,7 +32,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param stringA the string a
      * @param stringB the string b
@@ -42,7 +42,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param left  the left double
      * @param right the right double
@@ -52,7 +52,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param left    the left
      * @param stringB the string b
@@ -62,7 +62,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param expressionA the expression a
      * @param right       the right double
@@ -72,7 +72,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param left        the left double
      * @param expressionB the expression b
@@ -82,7 +82,7 @@ public class Div extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Div.
+     * new Div.
      *
      * @param left  the left double
      * @param right the right double
@@ -95,7 +95,7 @@ public class Div extends BinaryExpression implements Expression {
      * evaluate.
      *
      * @param assignment the Map
-     * @return he evaluate value of div according to the map
+     * @return evaluates value of div according to the map
      * @throws Exception if can not evaluate the variable according to Map
      */
     @Override

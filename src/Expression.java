@@ -38,8 +38,8 @@ public interface Expression {
 
     /**
      * Assign expression.
-     * the func. Returns a new expression in which all occurrences of the variable var are replaced with the provided
-     * expression (Does not modify the current expression).
+     * the func returns a new expression in which all occurrences of the variable var are replaced with the provided
+     * expression
      *
      * @param var        the var
      * @param expression the expression

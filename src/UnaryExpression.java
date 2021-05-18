@@ -5,7 +5,7 @@ public abstract class UnaryExpression extends BaseExpression implements Expressi
     private Expression expression;
 
     /**
-     * Instantiates a new Unary expression.
+     * new Unary expression.
      *
      * @param expressionPhrase the expression phrase
      */

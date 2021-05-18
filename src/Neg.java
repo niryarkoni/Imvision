@@ -3,7 +3,7 @@ import java.util.Map;
 public class Neg extends UnaryExpression implements Expression {
 
     /**
-     * Instantiates a new Neg.
+     * new Neg.
      *
      * @param expression the expression
      */
@@ -12,7 +12,7 @@ public class Neg extends UnaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Neg.
+     * new Neg.
      *
      * @param num the num
      */
@@ -21,7 +21,7 @@ public class Neg extends UnaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Neg.
+     * new Neg.
      *
      * @param string the string
      */

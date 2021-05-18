@@ -3,7 +3,7 @@ import java.util.Map;
 public class Sin extends UnaryExpression implements Expression {
 
     /**
-     * Instantiates a new Sin.
+     * new Sin.
      *
      * @param expression the expression
      */
@@ -12,7 +12,7 @@ public class Sin extends UnaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Sin.
+     * new Sin.
      *
      * @param num the num
      */
@@ -21,7 +21,7 @@ public class Sin extends UnaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Sin.
+     * new Sin.
      *
      * @param string the string
      */

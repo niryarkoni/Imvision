@@ -3,25 +3,25 @@ import java.util.Map;
 public class Cos extends UnaryExpression implements Expression {
 
     /**
-     * Instantiates a new Cos.
+     * new Cos.
      *
-     * @param expression the expression
+     * @param expression
      */
     public Cos(Expression expression) {
         super(expression);
     }
 
     /**
-     * Instantiates a new Cos.
+     * new Cos.
      *
-     * @param num the num
+     * @param num
      */
     public Cos(double num) {
         super(new Num(num));
     }
 
     /**
-     * Instantiates a new Cos.
+     * new Cos.
      *
      * @param string the string
      */

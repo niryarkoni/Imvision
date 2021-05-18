@@ -2,7 +2,7 @@
 
 public class Minus extends BinaryExpression implements Expression {
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param expressionA the expression a
      * @param expressionB the expression b
@@ -12,7 +12,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param stringA     the string a
      * @param expressionB the expression b
@@ -22,7 +22,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param expressionA the expression a
      * @param stringB     the string b
@@ -32,7 +32,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param stringA the string a
      * @param stringB the string b
@@ -42,7 +42,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param left  the left
      * @param right the right
@@ -52,7 +52,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param left    the left
      * @param stringB the string b
@@ -62,7 +62,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param expressionA the expression a
      * @param right       the right
@@ -72,7 +72,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param left        the left
      * @param expressionB the expression b
@@ -82,7 +82,7 @@ public class Minus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Minus.
+     * new Minus.
      *
      * @param left  the left
      * @param right the right

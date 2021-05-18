@@ -2,7 +2,7 @@ import java.util.Map;
 
 public class Pow extends BinaryExpression implements Expression {
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param expressionA the expression a
      * @param expressionB the expression b
@@ -12,7 +12,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param stringA     the string a
      * @param expressionB the expression b
@@ -22,7 +22,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param expressionA the expression a
      * @param stringB     the string b
@@ -32,7 +32,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param stringA the string a
      * @param stringB the string b
@@ -42,7 +42,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param left  the left
      * @param right the right
@@ -52,7 +52,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param left    the left
      * @param stringB the string b
@@ -62,7 +62,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param expressionA the expression a
      * @param right       the right
@@ -72,7 +72,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param left        the left
      * @param expressionB the expression b
@@ -82,7 +82,7 @@ public class Pow extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Pow.
+     * new Pow.
      *
      * @param left  the left
      * @param right the right

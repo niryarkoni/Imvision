@@ -10,7 +10,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     private Expression expressionRight;
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param expressionPhraseLeft  the expression phrase left
      * @param expressionPhraseRight the expression phrase right
@@ -21,7 +21,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left  the left
      * @param right the right
@@ -32,7 +32,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param expressionPhraseLeft the expression phrase left
      * @param right                the right string
@@ -43,7 +43,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left  the left string
      * @param right the right double
@@ -54,7 +54,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left                  the left string
      * @param expressionPhraseRight the expression phrase right
@@ -65,7 +65,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left  the left double
      * @param right the right string
@@ -76,7 +76,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left  the left double
      * @param right the right double
@@ -87,7 +87,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param left                  the left double
      * @param expressionPhraseRight the expression phrase right
@@ -98,7 +98,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Instantiates a new Binary expression.
+     * new Binary expression.
      *
      * @param expressionPhraseLeft the expression phrase left
      * @param left                 the left double
@@ -110,7 +110,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
 
     /**
      * name:getVariables.
-     * create a list of variables using in set to avoid duplicates
+     * create a list of variables using set to avoid duplicates
      * @return the list of variables
      */
     public List<String> getVariables() {
@@ -123,7 +123,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Gets expression left.
+     * Get expression left.
      *
      * @return the expression left
      */
@@ -132,7 +132,7 @@ public abstract class BinaryExpression extends BaseExpression implements Express
     }
 
     /**
-     * Gets expression right.
+     * Get expression right.
      *
      * @return the expression right
      */

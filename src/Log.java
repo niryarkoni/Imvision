@@ -1,14 +1,8 @@
 import java.util.Map;
-/**
- * Created by Nir Yarkoni 313587057
- */
 
-/**
- * The type Log.
- */
 public class Log extends BinaryExpression implements Expression {
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param expressionA the expression a
      * @param expressionB the expression b
@@ -18,7 +12,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param stringA     the string a
      * @param expressionB the expression b
@@ -28,7 +22,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param expressionA the expression a
      * @param stringB     the string b
@@ -38,7 +32,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param stringA the string a
      * @param stringB the string b
@@ -48,7 +42,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param left  the left
      * @param right the right double
@@ -58,7 +52,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param left    the left double
      * @param stringB the string b
@@ -68,7 +62,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param expressionA the expression a
      * @param right       the right double
@@ -78,7 +72,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param left        the left double
      * @param expressionB the expression b
@@ -88,7 +82,7 @@ public class Log extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Log.
+     * new Log.
      *
      * @param left  the left double
      * @param right the right double

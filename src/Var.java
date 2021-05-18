@@ -6,7 +6,7 @@ public class Var implements Expression {
     private String var;
 
     /**
-     * Instantiates a new Var.
+     * new Var.
      *
      * @param variable the variable
      */

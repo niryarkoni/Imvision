@@ -3,7 +3,7 @@ import java.util.Map;
 public class Plus extends BinaryExpression implements Expression {
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param expressionA the expression a
      * @param expressionB the expression b
@@ -13,7 +13,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param stringA     the string a
      * @param expressionB the expression b
@@ -23,7 +23,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param expressionA the expression a
      * @param stringB     the string b
@@ -33,7 +33,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param stringA the string a
      * @param stringB the string b
@@ -43,7 +43,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param left  the left
      * @param right the right
@@ -53,7 +53,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param left    the left
      * @param stringB the string b
@@ -63,7 +63,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param expressionA the expression a
      * @param right       the right
@@ -73,7 +73,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param left        the left
      * @param expressionB the expression b
@@ -83,7 +83,7 @@ public class Plus extends BinaryExpression implements Expression {
     }
 
     /**
-     * Instantiates a new Plus.
+     * new Plus.
      *
      * @param left  the left
      * @param right the right

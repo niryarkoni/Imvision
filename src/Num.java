@@ -6,7 +6,7 @@ public class Num implements Expression {
     private double num;
 
     /**
-     * Instantiates a new Num.
+     * new Num.
      *
      * @param number the number
      */
