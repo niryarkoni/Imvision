@@ -4,8 +4,8 @@ import java.util.concurrent.*;
 
 public class Executor {
     private Expression expression;
-    private long N;
-    public Executor(Expression e, long n){
+    private int N;
+    public Executor(Expression e, int n){
         this.expression = e;
         this.N = n;
     }
@@ -13,18 +13,25 @@ public class Executor {
         //create pool
         int coreCount = Runtime.getRuntime().availableProcessors();
         ExecutorService service = Executors.newFixedThreadPool(coreCount);
-        //ExecutorService service = Executors.newCachedThreadPool();
-        //submit the tasks for execution
+
         List<Future> futuresList = new ArrayList<>();
-        List<Double> result = new ArrayList<>();
-        for (int i= 0;i<N;i++){
-            Future<Double> future = service.submit(new Task(expression,i));
-            futuresList.add(future);
+        List<Double> result = new ArrayList<>(); // result list
+        int groupCount = N/coreCount; // number of values for submitting task
+        int index = 0; // initilaze index to zero
+
+        //submit the tasks for execution
+        while (index <= N-1){
+            int first = index; // first index of the group
+            int last = Math.min(index+groupCount,N-1); // last index of the group
+            Future<List<Double>> futures = service.submit(new Task(expression,first,last));
+            futuresList.add(futures);
+            index += groupCount+1;
         }
 
-        for(Future<Double> f : futuresList){
+        for(Future<List<Double>> f : futuresList){
             try {
-                result.add(f.get(1,TimeUnit.SECONDS));
+                List<Double> values = f.get(1,TimeUnit.SECONDS);
+                result.addAll(values);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (ExecutionException e) {
@@ -36,17 +43,30 @@ public class Executor {
         return result;
     }
 
-    static class Task implements Callable<Double> {
+    static class Task implements Callable<List<Double>> {
         private Expression e;
-        private int index;
-        public Task(Expression expression, int n_value){
+        private int firstIndex;
+        private int lastIndex;
+        private List<Double> group= new ArrayList<Double>();
+        public Task(Expression expression, int first, int last){
             this.e = expression;
-            this.index = n_value;
+            this.firstIndex = first;
+            this.lastIndex = last;
         }
         @Override
-        public Double call() throws Exception {
-            Expression ex = this.e.assign("n",new Num(this.index));
-            return ex.evaluate();
+        public List<Double> call() throws Exception {
+            for (int i=firstIndex; i<=lastIndex;i++){
+                try{
+                    Expression ex = this.e.assign("n",new Num(i));
+                    group.add(ex.evaluate());
+                }
+                catch (Exception e){
+                    group.add(null);
+                    e.printStackTrace();
+                }
+
+            }
+            return group;
         }
     }
 }
